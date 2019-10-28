@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <EditText
+        android:textSize="30sp"
+        android:id="@+id/top"
+        android:layout_width="300dp"someText
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:hint="TopText"
+        android:layout_marginBottom="15dp"
+        android:gravity="center_horizontal"
+         />
+
+    <EditText
+        android:id="@+id/bottom"
+        android:textSize="30sp"
+        android:layout_width="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:hint="BottomText"
+        android:layout_marginBottom="15dp"
+        android:layout_below="@+id/top"
+        android:gravity="center_horizontal"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Meme"
+        android:layout_below="@+id/bottom"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>
